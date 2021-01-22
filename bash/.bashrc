@@ -21,3 +21,6 @@ export PATH=$PATH:$HOME/bin
 
 # https://unix.stackexchange.com/a/17856
 for path in $HOME/bin/*/bin; do PATH="$path:$PATH"; done
+
+setxkbmap -option caps:swapescape
+setxkbmap -layout us -variant altgr-intl
