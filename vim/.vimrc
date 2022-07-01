@@ -3,8 +3,7 @@ unlet! skip_defaults_vim
 source $VIMRUNTIME/defaults.vim
 
 " load plugins
-"set runtimepath^=~/repo/fzf
-"set runtimepath^=~/repo/fzf.vim
+set runtimepath^=~/dev/vim-plugins/fzf.vim
 set runtimepath^=~/dev/vim-plugins/vim-airline
 set runtimepath^=~/dev/vim-plugins/vim-better-whitespace
 
