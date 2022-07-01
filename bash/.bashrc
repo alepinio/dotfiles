@@ -35,3 +35,5 @@ xmodmap -e 'keysym j = j J Down'
 
 # https://wiki.archlinux.org/index.php/bash#Auto_%22cd%22_when_entering_just_a_path
 shopt -s autocd
+
+eval "$(starship init bash)"
