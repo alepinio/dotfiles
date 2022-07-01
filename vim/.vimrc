@@ -9,7 +9,7 @@ set runtimepath^=~/dev/vim-plugins/vim-airline
 set runtimepath^=~/dev/vim-plugins/vim-better-whitespace
 
 " set colorscheme
-colorscheme ron
+colorscheme ron-legacy
 
 " draw a vertical line to highlight the character #80 of each line
 set colorcolumn=80
